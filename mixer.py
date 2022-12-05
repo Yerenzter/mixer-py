@@ -19,8 +19,3 @@ def mix(y, r):
             data += y[ry+rr]
 
         return data
-
-w1 = str(input("Enter first word: "))
-w2 = str(input("Enter second word: "))
-
-print(f"Mixed word: {mix(w1, w2)}")
